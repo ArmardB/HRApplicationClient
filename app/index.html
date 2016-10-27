@@ -50,6 +50,29 @@
 
     <div class="container">
     <div ng-view="">
+    <div ng-controller="AboutCtrl">
+        <table class="table-striped">
+
+        <table ng-table="vm.tableParams" class="table" show-filter="true">
+          <tr ng-repeat="user in $data">
+        <td title="'Name'" filter="{ name: 'text'}" sortable="'name'">
+            {{user.name}}</td>
+        <td title="'Age'" filter="{ age: 'number'}" sortable="'age'">
+            {{user.age}}</td>
+        </tr>
+          <tr>
+            <th>EMAIL</th>
+            <th>START TIME</th>
+            <th>END TIME</th>
+          </tr>
+           <tr>
+            <th>Jon Doe</th>
+            <th>09:00</th>
+            <th>10:00</th>
+          </tr>
+      
+        </table>
+    </div>
     <div>
     <div class="dropdown">
   <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -71,7 +94,7 @@
 
     <div class="footer">
       <div class="container">
-        <p><span class="glyphicon glyphicon-gun"></span> Jalisa and Armard </p>
+        <p><span class="glyphicon glyphicon-send"></span> Jalisa and Armard </p>
       </div>
     </div>
 

@@ -16,14 +16,17 @@ angular.module('hrappFrontEndApp',[])
      "endTime": ""
 
    };
-   $scope.response = [];
-   $http.get("http://localhost:8080/timecard")
-   .then(
-     function(response){
-       console.log(response.data);
-       $scope.responses = response.data;
-       console.log("yo");
-     }
-   );
+   $scope.responses = [];
+   $http.get("http://localhost:8080/timecard").success(function (response) {
+                        
+            $scope.responses = response.data;
+            console.log(response);
+        }).error(function(error) {
+            console.log(error);
+        });
+ 
  }
+
+
+ 
 ]);
