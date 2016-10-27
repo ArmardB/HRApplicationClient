@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // Generated on 2016-10-27 using generator-angular 0.15.1
+=======
+// Generated on 2016-10-26 using generator-angular 0.15.1
+>>>>>>> cdae478b0d00cf92a8e4600bf8a05e8a27016a84
 'use strict';
 
 // # Globbing
@@ -70,7 +74,11 @@ module.exports = function (grunt) {
     // The actual grunt server settings
     connect: {
       options: {
+<<<<<<< HEAD
         port: 9000,
+=======
+        port: 9023,
+>>>>>>> cdae478b0d00cf92a8e4600bf8a05e8a27016a84
         // Change this to '0.0.0.0' to access the server from outside.
         hostname: 'localhost',
         livereload: 35729
@@ -338,7 +346,11 @@ module.exports = function (grunt) {
     ngtemplates: {
       dist: {
         options: {
+<<<<<<< HEAD
           module: 'hrappApp',
+=======
+          module: 'hrappFrontEndApp',
+>>>>>>> cdae478b0d00cf92a8e4600bf8a05e8a27016a84
           htmlmin: '<%= htmlmin.dist.options %>',
           usemin: 'scripts/scripts.js'
         },

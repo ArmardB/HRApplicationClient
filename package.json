@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "hrapp",
+=======
+  "name": "hrappfrontend",
+>>>>>>> cdae478b0d00cf92a8e4600bf8a05e8a27016a84
   "private": true,
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",

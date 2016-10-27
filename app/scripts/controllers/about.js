@@ -16,6 +16,7 @@ angular.module('hrappFrontEndApp',[])
      "endTime": ""
 
    };
+<<<<<<< HEAD
    $scope.response = [];
    $http.get("http://localhost:8080/timecard")
    .then(
@@ -26,4 +27,19 @@ angular.module('hrappFrontEndApp',[])
      }
    );
  }
+=======
+   $scope.responses = [];
+   $http.get("http://localhost:8080/timecard").success(function (response) {
+                        
+            $scope.responses = response.data;
+            console.log(response);
+        }).error(function(error) {
+            console.log(error);
+        });
+ 
+ }
+
+
+ 
+>>>>>>> cdae478b0d00cf92a8e4600bf8a05e8a27016a84
 ]);

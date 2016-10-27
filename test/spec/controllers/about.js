@@ -3,7 +3,11 @@
 describe('Controller: AboutCtrl', function () {
 
   // load the controller's module
+<<<<<<< HEAD
   beforeEach(module('hrappApp'));
+=======
+  beforeEach(module('hrappFrontEndApp'));
+>>>>>>> cdae478b0d00cf92a8e4600bf8a05e8a27016a84
 
   var AboutCtrl,
     scope;

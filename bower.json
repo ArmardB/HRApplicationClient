@@ -1,11 +1,21 @@
 {
+<<<<<<< HEAD
   "name": "hrapp",
+=======
+  "name": "hrapp-front-end",
+>>>>>>> cdae478b0d00cf92a8e4600bf8a05e8a27016a84
   "version": "0.0.0",
   "dependencies": {
     "angular": "^1.4.0",
     "bootstrap": "^3.2.0",
     "angular-animate": "^1.4.0",
+<<<<<<< HEAD
     "angular-cookies": "^1.4.0",
+=======
+    "angular-aria": "^1.4.0",
+    "angular-cookies": "^1.4.0",
+    "angular-messages": "^1.4.0",
+>>>>>>> cdae478b0d00cf92a8e4600bf8a05e8a27016a84
     "angular-resource": "^1.4.0",
     "angular-route": "^1.4.0",
     "angular-sanitize": "^1.4.0",
@@ -15,7 +25,11 @@
     "angular-mocks": "^1.4.0"
   },
   "appPath": "app",
+<<<<<<< HEAD
   "moduleName": "hrappApp",
+=======
+  "moduleName": "hrappFrontEndApp",
+>>>>>>> cdae478b0d00cf92a8e4600bf8a05e8a27016a84
   "overrides": {
     "bootstrap": {
       "main": [

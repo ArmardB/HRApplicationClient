@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # hrapp
+=======
+# hrapp-front-end
+>>>>>>> cdae478b0d00cf92a8e4600bf8a05e8a27016a84
 
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.15.1.
