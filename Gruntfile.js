@@ -74,11 +74,7 @@ module.exports = function (grunt) {
     // The actual grunt server settings
     connect: {
       options: {
-<<<<<<< HEAD
-        port: 9000,
-=======
         port: 9023,
->>>>>>> cdae478b0d00cf92a8e4600bf8a05e8a27016a84
         // Change this to '0.0.0.0' to access the server from outside.
         hostname: 'localhost',
         livereload: 35729
@@ -228,7 +224,7 @@ module.exports = function (grunt) {
             }
           }
       }
-    }, 
+    },
 
     // Renames files for browser caching purposes
     filerev: {
